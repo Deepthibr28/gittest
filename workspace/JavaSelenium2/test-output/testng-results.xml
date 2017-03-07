@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart Suite - About to begin executing Suite Listeners TestSuite]]>
+    </line>
+    <line>
+      <![CDATA[onStart Test - About to begin executing Test set FireFox Listeners Test]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : TestNG_TestCase.beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : TestNG_TestCase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : TestNG_TestCase.testMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.testMethod]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in tutorialselenium.TestNG.TestNG_TestCase]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : TestNG_TestCase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : TestNG_TestCase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : TestNG_TestCase.testMethod1]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.testMethod1]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in tutorialselenium.TestNG.TestNG_TestCase]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : TestNG_TestCase.afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.afterMethod]]>
+    </line>
+  </reporter-output>
+  <suite name="Listeners TestSuite" duration-ms="75716" started-at="2017-03-01T19:10:29Z" finished-at="2017-03-01T19:11:44Z">
+    <groups>
+    </groups>
+    <test name="FireFox Listeners Test" duration-ms="75716" started-at="2017-03-01T19:10:29Z" finished-at="2017-03-01T19:11:44Z">
+      <class name="tutorialselenium.TestNG.TestNG_TestCase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tutorialselenium.TestNG.TestNG_TestCase@42e26948]" name="beforeClass" is-config="true" duration-ms="25945" started-at="2017-03-01T11:10:29Z" finished-at="2017-03-01T11:10:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.beforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tutorialselenium.TestNG.TestNG_TestCase@42e26948]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2017-03-01T11:10:54Z" finished-at="2017-03-01T11:10:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testMethod()[pri:0, instance:tutorialselenium.TestNG.TestNG_TestCase@42e26948]" name="testMethod" duration-ms="33429" started-at="2017-03-01T11:10:54Z" finished-at="2017-03-01T11:11:28Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"id","selector":"tab-flight-tab"}
+Command duration or timeout: 10.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Arjun-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8b7b595b-14d2-47ff-9c7a-40b71a49efb6
+*** Element info: {Using=id, value=tab-flight-tab}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"tab-flight-tab"}
+Command duration or timeout: 10.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Arjun-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8b7b595b-14d2-47ff-9c7a-40b71a49efb6
+*** Element info: {Using=id, value=tab-flight-tab}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at tutorialselenium.TestNG.SearchPage.navigateToFlightsTab(SearchPage.java:134)
+	at tutorialselenium.TestNG.TestNG_TestCase.testMethod(TestNG_TestCase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"tab-flight-tab"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Arjun-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARJUNB~1/AppData/Local/Temp/anonymous120901504728137742webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ARJUNB~1/AppData/Local/Temp/anonymous120901504728137742webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.testMethod]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in tutorialselenium.TestNG.TestNG_TestCase]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : TestNG_TestCase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tutorialselenium.TestNG.TestNG_TestCase@42e26948]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-03-01T11:11:32Z" finished-at="2017-03-01T11:11:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tutorialselenium.TestNG.TestNG_TestCase@42e26948]" name="beforeMethod" is-config="true" duration-ms="19" started-at="2017-03-01T11:11:32Z" finished-at="2017-03-01T11:11:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testMethod1()[pri:0, instance:tutorialselenium.TestNG.TestNG_TestCase@42e26948]" name="testMethod1" duration-ms="10070" started-at="2017-03-01T11:11:32Z" finished-at="2017-03-01T11:11:42Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"id","selector":"flight-departing"}
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Arjun-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8b7b595b-14d2-47ff-9c7a-40b71a49efb6
+*** Element info: {Using=id, value=flight-departing}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"flight-departing"}
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Arjun-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8b7b595b-14d2-47ff-9c7a-40b71a49efb6
+*** Element info: {Using=id, value=flight-departing}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at tutorialselenium.TestNG.SearchPage.departureDateTextBox(SearchPage.java:72)
+	at tutorialselenium.TestNG.SearchPage.fillDepartureDateTextBox(SearchPage.java:82)
+	at tutorialselenium.TestNG.TestNG_TestCase.testMethod1(TestNG_TestCase.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"flight-departing"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'Arjun-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ARJUNB~1/AppData/Local/Temp/anonymous120901504728137742webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ARJUNB~1/AppData/Local/Temp/anonymous120901504728137742webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.testMethod1]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in tutorialselenium.TestNG.TestNG_TestCase]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : TestNG_TestCase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tutorialselenium.TestNG.TestNG_TestCase@42e26948]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-03-01T11:11:44Z" finished-at="2017-03-01T11:11:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : TestNG_TestCase.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tutorialselenium.TestNG.TestNG_TestCase -->
+    </test> <!-- FireFox Listeners Test -->
+  </suite> <!-- Listeners TestSuite -->
+</testng-results>

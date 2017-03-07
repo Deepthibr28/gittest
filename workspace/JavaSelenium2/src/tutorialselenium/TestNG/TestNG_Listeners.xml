@@ -1,0 +1,20 @@
+<suite name="Listeners TestSuite" >
+<listeners>
+	<listener class-name="tutorialselenium.TestNG.SeleniumListeners"></listener>
+</listeners>
+<test name="FireFox Listeners Test">
+	<classes>
+		<class name="tutorialselenium.TestNG.TestNG_TestCase">
+		</class>
+	</classes>
+</test>
+</suite>
+
+
+<!-- <test name="Chrome Test">
+<parameter name="browserType" value="chrome" />
+	<classes>
+		<class name="tutorial.selenium.TestNG_MultiBrowserAndParallelTests">
+		</class>
+	</classes>
+</test> -->
